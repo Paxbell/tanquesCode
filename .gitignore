@@ -1,0 +1,22 @@
+# Carpetas de Unity a ignorar
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+
+# Archivos generados
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.pidb
+*.suo
+*.booproj
+*.svd
+*.pdb
+
+# Sistema
+.DS_Store
+Thumbs.db
