@@ -52,8 +52,6 @@ public class EnemyAI : MonoBehaviour
 
         Quaternion lookRotation = Quaternion.LookRotation(direction);
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, rotationSpeed * Time.deltaTime);
-        
-        // Aquí puedes instanciar un proyectil si quieres
     }
 
     void Patrol()
